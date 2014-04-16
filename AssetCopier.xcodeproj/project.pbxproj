@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD8C8CE18FF2F4100161747 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8C8CD18FF2F4100161747 /* Cocoa.framework */; };
+		CDD8C8D818FF2F4100161747 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDD8C8D618FF2F4100161747 /* InfoPlist.strings */; };
+		CDD8C8DA18FF2F4100161747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C8D918FF2F4100161747 /* main.m */; };
+		CDD8C8DE18FF2F4100161747 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDD8C8DC18FF2F4100161747 /* Credits.rtf */; };
+		CDD8C8E118FF2F4100161747 /* ASCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C8E018FF2F4100161747 /* ASCAppDelegate.m */; };
+		CDD8C8E418FF2F4100161747 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD8C8E218FF2F4100161747 /* MainMenu.xib */; };
+		CDD8C8E618FF2F4100161747 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD8C8E518FF2F4100161747 /* Images.xcassets */; };
+		CDD8C8ED18FF2F4100161747 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8C8EC18FF2F4100161747 /* XCTest.framework */; };
+		CDD8C8EE18FF2F4100161747 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD8C8CD18FF2F4100161747 /* Cocoa.framework */; };
+		CDD8C8F618FF2F4100161747 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDD8C8F418FF2F4100161747 /* InfoPlist.strings */; };
+		CDD8C8F818FF2F4100161747 /* AssetCopierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C8F718FF2F4100161747 /* AssetCopierTests.m */; };
+		CDD8C90518FF2F5B00161747 /* ASCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C90218FF2F5B00161747 /* ASCImageView.m */; };
+		CDD8C90618FF2F5B00161747 /* NSString+ASCPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C90418FF2F5B00161747 /* NSString+ASCPathUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD8C8EF18FF2F4100161747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD8C8C218FF2F4100161747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8C8C918FF2F4100161747;
+			remoteInfo = AssetCopier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDD8C8CA18FF2F4100161747 /* AssetCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD8C8CD18FF2F4100161747 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CDD8C8D018FF2F4100161747 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CDD8C8D118FF2F4100161747 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDD8C8D218FF2F4100161747 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDD8C8D518FF2F4100161747 /* AssetCopier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssetCopier-Info.plist"; sourceTree = "<group>"; };
+		CDD8C8D718FF2F4100161747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDD8C8D918FF2F4100161747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDD8C8DB18FF2F4100161747 /* AssetCopier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssetCopier-Prefix.pch"; sourceTree = "<group>"; };
+		CDD8C8DD18FF2F4100161747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CDD8C8DF18FF2F4100161747 /* ASCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCAppDelegate.h; sourceTree = "<group>"; };
+		CDD8C8E018FF2F4100161747 /* ASCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCAppDelegate.m; sourceTree = "<group>"; };
+		CDD8C8E318FF2F4100161747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDD8C8E518FF2F4100161747 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDD8C8EB18FF2F4100161747 /* AssetCopierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetCopierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD8C8EC18FF2F4100161747 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDD8C8F318FF2F4100161747 /* AssetCopierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssetCopierTests-Info.plist"; sourceTree = "<group>"; };
+		CDD8C8F518FF2F4100161747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDD8C8F718FF2F4100161747 /* AssetCopierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetCopierTests.m; sourceTree = "<group>"; };
+		CDD8C90118FF2F5B00161747 /* ASCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCImageView.h; sourceTree = "<group>"; };
+		CDD8C90218FF2F5B00161747 /* ASCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCImageView.m; sourceTree = "<group>"; };
+		CDD8C90318FF2F5B00161747 /* NSString+ASCPathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ASCPathUtils.h"; sourceTree = "<group>"; };
+		CDD8C90418FF2F5B00161747 /* NSString+ASCPathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASCPathUtils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD8C8C718FF2F4100161747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C8CE18FF2F4100161747 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8C8E818FF2F4100161747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C8EE18FF2F4100161747 /* Cocoa.framework in Frameworks */,
+				CDD8C8ED18FF2F4100161747 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD8C8C118FF2F4100161747 = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8D318FF2F4100161747 /* AssetCopier */,
+				CDD8C8F118FF2F4100161747 /* AssetCopierTests */,
+				CDD8C8CC18FF2F4100161747 /* Frameworks */,
+				CDD8C8CB18FF2F4100161747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD8C8CB18FF2F4100161747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8CA18FF2F4100161747 /* AssetCopier.app */,
+				CDD8C8EB18FF2F4100161747 /* AssetCopierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD8C8CC18FF2F4100161747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8CD18FF2F4100161747 /* Cocoa.framework */,
+				CDD8C8EC18FF2F4100161747 /* XCTest.framework */,
+				CDD8C8CF18FF2F4100161747 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDD8C8CF18FF2F4100161747 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8D018FF2F4100161747 /* AppKit.framework */,
+				CDD8C8D118FF2F4100161747 /* CoreData.framework */,
+				CDD8C8D218FF2F4100161747 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CDD8C8D318FF2F4100161747 /* AssetCopier */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8DF18FF2F4100161747 /* ASCAppDelegate.h */,
+				CDD8C8E018FF2F4100161747 /* ASCAppDelegate.m */,
+				CDD8C90118FF2F5B00161747 /* ASCImageView.h */,
+				CDD8C90218FF2F5B00161747 /* ASCImageView.m */,
+				CDD8C90318FF2F5B00161747 /* NSString+ASCPathUtils.h */,
+				CDD8C90418FF2F5B00161747 /* NSString+ASCPathUtils.m */,
+				CDD8C8E218FF2F4100161747 /* MainMenu.xib */,
+				CDD8C8E518FF2F4100161747 /* Images.xcassets */,
+				CDD8C8D418FF2F4100161747 /* Supporting Files */,
+			);
+			path = AssetCopier;
+			sourceTree = "<group>";
+		};
+		CDD8C8D418FF2F4100161747 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8D518FF2F4100161747 /* AssetCopier-Info.plist */,
+				CDD8C8D618FF2F4100161747 /* InfoPlist.strings */,
+				CDD8C8D918FF2F4100161747 /* main.m */,
+				CDD8C8DB18FF2F4100161747 /* AssetCopier-Prefix.pch */,
+				CDD8C8DC18FF2F4100161747 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD8C8F118FF2F4100161747 /* AssetCopierTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8F718FF2F4100161747 /* AssetCopierTests.m */,
+				CDD8C8F218FF2F4100161747 /* Supporting Files */,
+			);
+			path = AssetCopierTests;
+			sourceTree = "<group>";
+		};
+		CDD8C8F218FF2F4100161747 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C8F318FF2F4100161747 /* AssetCopierTests-Info.plist */,
+				CDD8C8F418FF2F4100161747 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD8C8C918FF2F4100161747 /* AssetCopier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD8C8FB18FF2F4100161747 /* Build configuration list for PBXNativeTarget "AssetCopier" */;
+			buildPhases = (
+				CDD8C8C618FF2F4100161747 /* Sources */,
+				CDD8C8C718FF2F4100161747 /* Frameworks */,
+				CDD8C8C818FF2F4100161747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetCopier;
+			productName = AssetCopier;
+			productReference = CDD8C8CA18FF2F4100161747 /* AssetCopier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD8C8EA18FF2F4100161747 /* AssetCopierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD8C8FE18FF2F4100161747 /* Build configuration list for PBXNativeTarget "AssetCopierTests" */;
+			buildPhases = (
+				CDD8C8E718FF2F4100161747 /* Sources */,
+				CDD8C8E818FF2F4100161747 /* Frameworks */,
+				CDD8C8E918FF2F4100161747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD8C8F018FF2F4100161747 /* PBXTargetDependency */,
+			);
+			name = AssetCopierTests;
+			productName = AssetCopierTests;
+			productReference = CDD8C8EB18FF2F4100161747 /* AssetCopierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD8C8C218FF2F4100161747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ASC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zev Eisenberg";
+				TargetAttributes = {
+					CDD8C8EA18FF2F4100161747 = {
+						TestTargetID = CDD8C8C918FF2F4100161747;
+					};
+				};
+			};
+			buildConfigurationList = CDD8C8C518FF2F4100161747 /* Build configuration list for PBXProject "AssetCopier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD8C8C118FF2F4100161747;
+			productRefGroup = CDD8C8CB18FF2F4100161747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD8C8C918FF2F4100161747 /* AssetCopier */,
+				CDD8C8EA18FF2F4100161747 /* AssetCopierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD8C8C818FF2F4100161747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C8D818FF2F4100161747 /* InfoPlist.strings in Resources */,
+				CDD8C8E618FF2F4100161747 /* Images.xcassets in Resources */,
+				CDD8C8DE18FF2F4100161747 /* Credits.rtf in Resources */,
+				CDD8C8E418FF2F4100161747 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8C8E918FF2F4100161747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C8F618FF2F4100161747 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD8C8C618FF2F4100161747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C90518FF2F5B00161747 /* ASCImageView.m in Sources */,
+				CDD8C8E118FF2F4100161747 /* ASCAppDelegate.m in Sources */,
+				CDD8C90618FF2F5B00161747 /* NSString+ASCPathUtils.m in Sources */,
+				CDD8C8DA18FF2F4100161747 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8C8E718FF2F4100161747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8C8F818FF2F4100161747 /* AssetCopierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD8C8F018FF2F4100161747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD8C8C918FF2F4100161747 /* AssetCopier */;
+			targetProxy = CDD8C8EF18FF2F4100161747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDD8C8D618FF2F4100161747 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD8C8D718FF2F4100161747 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDD8C8DC18FF2F4100161747 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD8C8DD18FF2F4100161747 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CDD8C8E218FF2F4100161747 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD8C8E318FF2F4100161747 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CDD8C8F418FF2F4100161747 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD8C8F518FF2F4100161747 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD8C8F918FF2F4100161747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDD8C8FA18FF2F4100161747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDD8C8FC18FF2F4100161747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetCopier/AssetCopier-Prefix.pch";
+				INFOPLIST_FILE = "AssetCopier/AssetCopier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDD8C8FD18FF2F4100161747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetCopier/AssetCopier-Prefix.pch";
+				INFOPLIST_FILE = "AssetCopier/AssetCopier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDD8C8FF18FF2F4100161747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssetCopier.app/Contents/MacOS/AssetCopier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetCopier/AssetCopier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AssetCopierTests/AssetCopierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDD8C90018FF2F4100161747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssetCopier.app/Contents/MacOS/AssetCopier";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetCopier/AssetCopier-Prefix.pch";
+				INFOPLIST_FILE = "AssetCopierTests/AssetCopierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD8C8C518FF2F4100161747 /* Build configuration list for PBXProject "AssetCopier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8C8F918FF2F4100161747 /* Debug */,
+				CDD8C8FA18FF2F4100161747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD8C8FB18FF2F4100161747 /* Build configuration list for PBXNativeTarget "AssetCopier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8C8FC18FF2F4100161747 /* Debug */,
+				CDD8C8FD18FF2F4100161747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDD8C8FE18FF2F4100161747 /* Build configuration list for PBXNativeTarget "AssetCopierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8C8FF18FF2F4100161747 /* Debug */,
+				CDD8C90018FF2F4100161747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD8C8C218FF2F4100161747 /* Project object */;
+}
